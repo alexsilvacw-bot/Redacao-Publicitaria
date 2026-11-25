@@ -3,9 +3,9 @@ name: redacao-publicitaria
 description: Escreve títulos, legendas, textos de arte e e-mails publicitários em português brasileiro a partir de um briefing e de referências de redação. Use quando o usuário invocar $redacao-publicitaria ou pedir criação de texto publicitário com esta skill.
 ---
 
-# Redação Publicitária
+# Redação-Publicitária
 
-Escreva a peça diretamente nesta conversa com o modelo e o esforço selecionados pelo usuário. Use o leitor local para trazer os exemplos ao contexto antes de escrever.
+Escreva a peça diretamente nesta conversa com o modelo e o esforço selecionados pelo usuário. Use o leitor local para trazer os anúncios de referência ao contexto antes de escrever.
 
 ## Defina a entrada
 
@@ -21,7 +21,7 @@ Leia **Produto ou serviço** em todos os modos para entender a oferta à qual ca
 
 ## Leia a seleção editorial
 
-A edição pública inclui [exemplos inéditos](references/anuncios.txt). O leitor local [scripts/ler_anuncios.py](scripts/ler_anuncios.py) entrega apenas os campos do modo solicitado, em lotes ordenados. Resolva o caminho do script a partir da pasta deste `SKILL.md`. Se o usuário indicar um arquivo de referências no mesmo formato, use `--acervo <caminho>` em todos os comandos de leitura.
+Use a [seleção editorial de 441 anúncios](references/anuncios.txt) que acompanha a skill. O leitor local [scripts/ler_anuncios.py](scripts/ler_anuncios.py) entrega apenas os campos do modo solicitado, em lotes ordenados. Resolva o caminho do script a partir da pasta deste `SKILL.md`. Se o usuário pedir o uso de outro arquivo de referências no mesmo formato, use `--acervo <caminho>` em todos os comandos de leitura.
 
 1. Execute `python3 <caminho-do-script> <modo>` para obter o plano de lotes. Por exemplo, `python3 <caminho-do-script> legenda`.
 2. Leia cada lote com `python3 <caminho-do-script> <modo> <número-do-lote>`. Comece pelo lote 1, siga o plano até o último lote e mantenha todos os anúncios no contexto da geração. O lote só conta como lido após seu conteúdo inteiro estar disponível. Se a ferramenta truncar a saída de um lote, recupere o trecho faltante. Se a conversa não comportar a leitura integral, informe a limitação antes de oferecer uma execução parcial.

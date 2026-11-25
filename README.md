@@ -4,11 +4,9 @@ Skill para escrever títulos, legendas, textos de arte e e-mails publicitários.
 
 ## Como funciona o motor de redação
 
-A metodologia foi desenvolvida a partir da leitura e da seleção editorial de grandes textos da publicidade brasileira. A seleção original reúne 441 anúncios. O trabalho de curadoria examinou onde a ideia se completa em cada peça, seja no título, no restante do texto ou na relação com a imagem.
+A metodologia foi desenvolvida a partir da leitura e da seleção editorial de grandes textos da publicidade brasileira. A curadoria examinou onde a ideia se completa em cada peça, seja no título, no restante do texto ou na relação com a imagem. O acervo completo acompanha a skill e está pronto para uso. [Leia os 441 anúncios selecionados](redacao-publicitaria/references/anuncios.txt).
 
-A cada pedido, a skill lê o briefing e coloca os exemplos de redação no contexto do modelo. Para um título, lê títulos, subtítulos e assinaturas. Para uma legenda, lê os corpos dos anúncios. Para texto de arte com legenda ou e-mail, combina os campos. Em todos os formatos, lê a descrição da oferta de referência para entender o sentido da peça. Os fatos do novo anúncio vêm do briefing. O aprendizado durante a execução acontece por exemplos em contexto, com os pesos do modelo fixos.
-
-Esta edição pública vem com oito exemplos inéditos que demonstram o método. A seleção editorial original de 441 anúncios permanece no acervo privado.
+A cada pedido, a skill lê o briefing e percorre a seleção inteira, usando os campos adequados à entrega. Para um título, lê títulos, subtítulos e assinaturas. Para uma legenda, lê os corpos dos anúncios. Para texto de arte com legenda ou e-mail, combina os campos. Em todos os formatos, lê a descrição da oferta de referência para entender o sentido da peça. Os fatos do novo anúncio vêm do briefing. O modelo usa os textos como exemplos em contexto, com os pesos fixos.
 
 ## Modelo recomendado
 
